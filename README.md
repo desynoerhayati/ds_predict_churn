@@ -10,6 +10,7 @@ This report aims to forecast the churn rate of Company clients. By identifying c
 * internet.csv
 * phone.csv
 
+
 Here is the step for analyze :
 
 ## Data Preprocessing
@@ -36,6 +37,7 @@ The feature engineering steps performed include:
 * Separating Features and Target : Separate the features (independent variables) from the target (dependent variable). The features will be used to predict the target.
 * OrdinalEncoder : Convert categorical features into ordinal integers. It assigns a unique integer to each unique category in the feature, thereby transforming categorical data into a format that many machine learning algorithms can work with effectively.
 * Scaling Data with MinMaxScaler : Scale numerical data to a specified range, typically between 0 and 1. This ensures that all features contribute equally to the model training process, especially when features have different ranges or units.
+
 
 After analyzed, now we make a model :
 
